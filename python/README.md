@@ -9,7 +9,7 @@ In this folder you may find the following concepts in Python (ranging from basic
 5. Functions
 6. Object Oriented Programming (objects, classes, inheritance, etc)
 7. Common Methods (print, map, input, etc)
-8. Standard Library (common ones such as json, requests, etc)
+8. Standard Library (common ones such as math, json, requests, etc)
 9. Keywords
 10. Error Handling
 11. Iterators and Generators

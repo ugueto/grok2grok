@@ -89,8 +89,13 @@ print(sample_list.count(1))
 """
 
 
-# A list of lists, can also be used to represent a Matrix. See below:
+# A list of lists or nested list, can also be used to represent a matrices and tables. See below:
 
 matrix_example = [[1, 1, 1],
                   [2, 2, 2],
                   [3, 3, 3]]
+
+# In this case, you can use multiple indices, to represent the outer list and the inner list.
+# Let's say we want the first integer, in the first list.
+
+print(matrix_example[0][0])  # Remember, first = index 0!
