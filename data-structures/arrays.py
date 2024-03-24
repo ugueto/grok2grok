@@ -17,7 +17,6 @@ Every athlete has their number (index in Python),
 which indicates their position in this list. Hence, the list is indexed.
 
 Note: Lists are indexed from 0 to n. The last item in the list can be fetched with -1 index.
-
 """
 
 # We can create a list of names (strings!) to store these runners.
@@ -69,7 +68,9 @@ print(len(all_runners_together)) # Remember index starts at 0 but length at 1. 8
 
 # There are currently 2 common methods used to sort an array/list in Python.
 sorted(all_runners_together)
-all_runners_together.sort()
+all_runners_together.sort()  # This would only work with SORTABLE data types!
+
+non_sortable_array = [None, False, 10, 7.0, "Whatever"]  # This array cannot be sorted.
 
 
 # List comprehension helps you create and manipulate lists using loops and conditionals.
@@ -85,7 +86,9 @@ print(sample_list.count(1))
     Stacks are another data structure we will see later on.
     The list methods make it very easy to use a list as a stack, where the last element added is the first element retrieved (“last-in, first-out”).
     To add an item to the top of the stack, use append(). 
-    To retrieve an item from the top of the stack, use pop() without an explicit index. 
+    To retrieve an item from the top of the stack, use pop() without an explicit index.
+
+    You couls also use lists as queues (FIFO) an remove the first index but it is not ideal, very slow!
 """
 
 
