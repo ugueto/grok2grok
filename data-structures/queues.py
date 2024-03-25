@@ -8,7 +8,7 @@
     The last person to join will be the last one to pay for their groceries.
 
     There are multiple ways to do queues in Python, we will create a few here.
-    - using collections.deque (pronounced deck).
+    - using collections.deque (pronounced deck and stands for double-ended queue!).
     - using queue.Queue
     - using a list (as mentioned in arrays.py, this is a slow approach!)
 

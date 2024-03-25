@@ -15,3 +15,5 @@ In this folder you may find the following concepts applied in Python:
 
 We will also learn how to create, delete, insert, and locate elements in these data structures.
 Armed with this knowledge, we will be able to decide when to properly apply them.
+
+Quick explanations: https://www.thedshandbook.com/
